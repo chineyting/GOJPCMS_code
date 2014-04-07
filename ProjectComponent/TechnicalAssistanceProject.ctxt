@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=projectName\ projectDescription\ sector\ cons
+comment0.target=TechnicalAssistanceProject(java.lang.String,\ java.lang.String,\ java.lang.String,\ Consultant)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ TechnicalAssistanceProject\r\n
+comment1.params=cons
+comment1.target=void\ addConsultant(Consultant)
+numComments=2

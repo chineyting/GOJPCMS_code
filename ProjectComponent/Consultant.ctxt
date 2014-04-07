@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=tof\ sop
+comment0.target=Consultant(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Consultant\r\n
+comment1.params=
+comment1.target=java.lang.String\ getTermsOfReference()
+comment2.params=
+comment2.target=java.lang.String\ getScheduleOfPayments()
+comment3.params=tor
+comment3.target=void\ setTermsOfReference(java.lang.String)
+comment4.params=sop
+comment4.target=void\ setScheduleOfPayments(java.lang.String)
+numComments=5

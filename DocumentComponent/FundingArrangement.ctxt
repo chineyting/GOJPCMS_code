@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=docID\ docName\ fs\ aof\ typ
+comment0.target=FundingArrangement(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ FundingArrangement\r\n
+comment1.params=
+comment1.target=java.lang.String\ getFundingSource()
+comment2.params=
+comment2.target=double\ getAmountOfFunds()
+comment3.params=
+comment3.target=java.lang.String\ getType()
+comment4.params=fs
+comment4.target=void\ setFundingSource(java.lang.String)
+comment5.params=aof
+comment5.target=void\ setAmountOfFunds(double)
+comment6.params=typ
+comment6.target=void\ setType(java.lang.String)
+numComments=7

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=docID\ docName
+comment0.target=Document(java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getDocId()
+comment2.params=
+comment2.target=void\ printDoc()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=void\ saveDoc()
+comment5.params=
+comment5.target=void\ deleteDoc()
+comment6.params=
+comment6.target=java.lang.String\ getDocName()
+comment7.params=id
+comment7.target=void\ setDocId(java.lang.String)
+comment8.params=name
+comment8.target=void\ setDocName(java.lang.String)
+numComments=9
