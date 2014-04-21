@@ -1,4 +1,10 @@
 package DocumentComponent;
+import java.io.*;
+import java.util.Scanner;
+
+
+
+
 
 
 /**
@@ -30,11 +36,18 @@ public class Document
     //returns information on Document
     public String toString()
     {
-        return info;
+        return ("Document Name:"+docName+"\nDocument ID:"+docID+"\nDocument Info:"+info);
     }
 
     //saves document
-    public void saveDoc(){}
+    public void saveDoc() {
+    	PDF pdf = new PDF();
+    	Scanner scan = new Scanner(System.in);
+    	System.out.println("Please enter name of file");
+    	String file = scan.nextLine();
+    	pdf.write(file, toString());
+       
+    }
 
     //deletes document
     public void deleteDoc(){}
@@ -52,4 +65,9 @@ public class Document
         this.docName = name;
         
     }
+    public static void main(String[] args){
+		Document document = new Document("1234","Season Pass");
+		document.saveDoc();
+		
+	}
 }

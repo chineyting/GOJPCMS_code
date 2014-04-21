@@ -12,7 +12,7 @@ import java.util.*;
 public class Project
 {
     //declarations 
-    AclComponent.authentication user; //object of AclComponent 
+    AclComponent.Authentication user; //object of AclComponent 
 
     public int projectid;
     public String projectName;
