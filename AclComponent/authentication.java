@@ -7,7 +7,7 @@ package AclComponent;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class authentication
+public class Authentication
 {
     //gives access to user if he/she is authorized
     public boolean hasAccess()

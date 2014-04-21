@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.params=projectName\ projectDescription\ sector\ contract
-comment0.target=CapitalProject(java.lang.String,\ java.lang.String,\ java.lang.String,\ Contract)
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ CapitalProject\r\n
-comment1.params=
-comment1.target=Contract\ getContract()
-comment2.params=con
-comment2.target=void\ setContract(Contract)
-numComments=3
