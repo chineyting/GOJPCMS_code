@@ -30,6 +30,7 @@ public class Project
     private QuarterlyProgressReport quarterlyProgressReport;
     private FinalReport finalReport;
     private ExPostEvaluation exPostEvaluation;
+    private List<Project> projects = new ArrayList<Project>();
 
     /**
      * Create contructor with project name, description
@@ -50,21 +51,9 @@ public class Project
      * @param project name and project description
      * @return "Failure" or "success"
      */
-    public String addProject(String projectName, String projectDescription)
+    public void addProject(String projectName, String projectDescription,String sector)
     {
-        if (user.hasAccess())
-        {
-            //create the project
-
-            // Project project = new Project(projectName, projectDescription);
-
-            //code to pass the information to the persistence layer
-            return "SUCCESS";
-        }
-        else
-        {
-            return "FAILURE";
-        }
+      this.projects.add(new Project(projectName,projectDescription,sector));
     }
 
     /**
@@ -72,10 +61,11 @@ public class Project
      * @param project name and description
      * @return
      */
-    public void editProject(String projectName,String projectDescription)
+    public void editProject(String projectName,String projectDescription,String sector)
     {
-        projectName=projectName;
-        projectDescription=projectDescription;   
+        this.projectName=projectName;
+        this.projectDescription=projectDescription;  
+        this.sector=sector;
 
     }
 

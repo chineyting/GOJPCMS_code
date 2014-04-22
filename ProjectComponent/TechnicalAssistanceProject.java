@@ -27,4 +27,16 @@ public class TechnicalAssistanceProject extends Project
         this.consultants.add(cons);
 
     }
+    
+    public void removeConsultant(String name)
+    {
+        for (Consultant i :consultants){
+        	if (i.getName().equals(name)){
+        		consultants.remove(i);
+        		
+        	}
+        	
+        }
+
+    }
 }
