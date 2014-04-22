@@ -1,5 +1,5 @@
 package ProjectComponent;
-
+import java.util.ArrayList;
 
 /**
  * Write a description of class CapitalProject here.
@@ -15,9 +15,9 @@ public class CapitalProject extends Project
     /**
      * Constructor for objects of class CapitalProject
      */
-    public CapitalProject (String projectName, String projectDescription,String sector)
+    public CapitalProject (String projectName, String projectDescription,String sector, ArrayList<String> act)
     {
-        super(projectName,projectDescription,sector);
+        super(projectName,projectDescription,sector,act);
        
     }
     
