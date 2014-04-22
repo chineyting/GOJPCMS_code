@@ -15,9 +15,9 @@ public class CapitalProject extends Project
     /**
      * Constructor for objects of class CapitalProject
      */
-    public CapitalProject (String projectName, String projectDescription,String sector, ArrayList<String> act)
+    public CapitalProject (String projectName, String projectDescription,String sector)
     {
-        super(projectName,projectDescription,sector,act);
+        super(projectName,projectDescription,sector);
        
     }
     
