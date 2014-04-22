@@ -62,24 +62,24 @@ public class ProjectDriver
         			System.out.println("Enter Project Consultant Schedule Of Payments: ");
         			String pay = scan.nextLine();
         			
-        			//ArrayList a = new ArrayList();
+        			ArrayList a = new ArrayList();
         			
-        			//while (act !=null){
+        			while (act !=null){
         			    
-        			//}
-        			
-	                //System.out.println("Enter Project Activity: ") ;
-        			//act = scan.nextLine();
         			
         			
-        			//a.add(act);
-        		    //}
+	                	System.out.println("Enter Project Activity: ") ;
+        			act = scan.nextLine();
+        			
+        			
+        			a.add(act);
+        		    	}
         			
         			
 
                 
         			Consultant consultant = new Consultant(cname,terms, pay); 
-        			proj = new TechnicalAssistanceProject(name,description,sector,consultant);
+        			proj = new TechnicalAssistanceProject(name,description,sector,act,consultant);
         			System.out.println ( proj.toString());
             	
         		}else if(type.toUpperCase().equals("C")){
