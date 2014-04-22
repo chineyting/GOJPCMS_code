@@ -19,6 +19,7 @@ public class ProjectDriver
         Project proj;
         String choice = "";
         proj = new Project("","","");
+        String act;
        
         while(!choice.toUpperCase().equals("Q")){
         	System.out.println("WELCOME TO GOJPMS");
@@ -58,8 +59,23 @@ public class ProjectDriver
         			String terms = scan.nextLine();
 
                 
-        			System.out.println("Enter Project Consultant Schedule Of Payments: ");
-        			String pay = scan.nextLine();
+        		//	System.out.println("Enter Project Consultant Schedule Of Payments: ");
+        			//String pay = scan.nextLine();
+        			
+        			//ArrayList a = new ArrayList();
+        			
+        			//while (act !=null){
+        			    
+        			//}
+        			
+	                //System.out.println("Enter Project Activity: ") ;
+        			//act = scan.nextLine();
+        			
+        			
+        			//a.add(act);
+        		    //}
+        			
+        			
 
                 
         			Consultant consultant = new Consultant(cname,terms, pay); 
