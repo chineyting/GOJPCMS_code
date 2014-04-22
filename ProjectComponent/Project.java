@@ -1,6 +1,6 @@
 package ProjectComponent;
 import DocumentComponent.*;
-
+import java.util.ArrayList;
 import java.util.*;
 
 /**
@@ -18,6 +18,7 @@ public class Project
     public String projectName;
     public String sector; 
     public String projectDescription;
+    public static ArrayList<String> act;
     
 
     //added 
@@ -38,12 +39,13 @@ public class Project
      * @param projectName, projectDescription
      * 
      */
-    public Project(String projectName, String projectDescription,String sector)
+    public Project(String projectName, String projectDescription,String sector, ArrayList<String> act)
     {
         //constructor code
         this.projectName=projectName;
         this.projectDescription=projectDescription;
         this.sector = sector;
+        this.act=act;
 
     }
 
