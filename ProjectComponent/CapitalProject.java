@@ -15,10 +15,10 @@ public class CapitalProject extends Project
     /**
      * Constructor for objects of class CapitalProject
      */
-    public CapitalProject (String projectName, String projectDescription,String sector,Contract contract )
+    public CapitalProject (String projectName, String projectDescription,String sector)
     {
         super(projectName,projectDescription,sector);
-        this.contract = contract;
+       
     }
     
     
