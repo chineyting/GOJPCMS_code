@@ -16,7 +16,7 @@ public class Project
 
     public int projectid;
     public String projectName;
-    public String sector,activity; 
+    public String sector; 
     public String projectDescription;
     
 
@@ -57,10 +57,7 @@ public class Project
       this.projects.add(new Project(projectName,projectDescription,sector));
     }
     
-    public String (String projectName, String activity)
-    {
-        this.activity = activity;
-    }
+   
 
     /**
      * Edit roject name and desciption 
