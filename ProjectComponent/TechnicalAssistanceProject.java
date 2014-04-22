@@ -17,7 +17,7 @@ public class TechnicalAssistanceProject extends Project
     /**
      * Constructor for objects of class TechnicalAssistanceProject
      */
-    public TechnicalAssistanceProject (String projectName, String projectDescription,String sector,ArrayList<String>act,Consultant cons)
+    public TechnicalAssistanceProject (String projectName, String projectDescription,String sector,Consultant cons)
     {
         super(projectName,projectDescription,sector,act);
         this.consultants.add(cons);
