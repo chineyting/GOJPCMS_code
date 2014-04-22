@@ -16,8 +16,9 @@ public class Project
 
     public int projectid;
     public String projectName;
-    public String sector; 
+    public String sector,activity; 
     public String projectDescription;
+    
 
     //added 
     private ProjectBudget projectBudget;
@@ -65,6 +66,11 @@ public class Project
         {
             return "FAILURE";
         }
+    }
+    
+    public String (String projectName, String activity)
+    {
+        this.activity = activity;
     }
 
     /**
